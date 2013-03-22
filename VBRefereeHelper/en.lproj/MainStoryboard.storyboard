@@ -572,65 +572,6 @@
         <image name="Whistle.png" width="32" height="32"/>
         <image name="scoreboard.png" width="32" height="32"/>
     </resources>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="VBRHFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/VBRHFirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="invertColorsButton:"/>
-                <relationship kind="action" name="leftMinusScore:"/>
-                <relationship kind="action" name="leftNumberOfChangeovers:"/>
-                <relationship kind="action" name="leftNumberOfTimeouts:"/>
-                <relationship kind="action" name="leftScoreButton:"/>
-                <relationship kind="action" name="leftSetsButton:"/>
-                <relationship kind="action" name="resetChangeovers:"/>
-                <relationship kind="action" name="resetScores:"/>
-                <relationship kind="action" name="resetTimeouts:"/>
-                <relationship kind="action" name="rightMinusScore:"/>
-                <relationship kind="action" name="rightNumberOfChangeovers:"/>
-                <relationship kind="action" name="rightNumberOfTimeouts:"/>
-                <relationship kind="action" name="rightScoreButton:"/>
-                <relationship kind="action" name="rightSetsButton:"/>
-                <relationship kind="outlet" name="leftMinusScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftNumberOfChangeovers" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftNumberOfTimeouts" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftScoreButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="leftSetsButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightMinusScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightNumberOfChangeovers" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightNumberOfTimeouts" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightScoreButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightSetsButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="VBRHSecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/VBRHSecondViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="invertColors:"/>
-                <relationship kind="action" name="leftSetsButton:"/>
-                <relationship kind="action" name="minusLeftScore:"/>
-                <relationship kind="action" name="minusRightScore:"/>
-                <relationship kind="action" name="plusLeftScore:"/>
-                <relationship kind="action" name="plusRightScore:"/>
-                <relationship kind="action" name="resetButton:"/>
-                <relationship kind="action" name="resetMatchButton:"/>
-                <relationship kind="action" name="rightSetsButton:"/>
-                <relationship kind="outlet" name="leftScoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="leftSetsButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="minusLeftScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="minusRightScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="plusLeftScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="plusRightScore" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rightScoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="rightSetsButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="graphicsFirstView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/graphicsFirstView.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
